@@ -1,0 +1,506 @@
+/* Akatsuki theme stylesheet */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background:
+    radial-gradient(
+      ellipse at 20% 10%,
+      rgba(192, 24, 24, 0.1) 0 8%,
+      transparent 30%
+    )
+    radial-gradient(
+      ellipse at 80% 30%,
+      rgba(192, 24, 24, 0.1) 0 8%,
+      transparent 25%
+    ),
+    linear-gradient(180deg, #070707 0%, #0f0f10 100%);
+  color: #efefef;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+a {
+  color: #ff6b6b;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffa3a3;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 3.5rem auto;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+h1,
+h2,
+h3 {
+  color: #fff;
+  margin: 0 0 0.75rem 0;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.6);
+  font-family: cursive, "Segoe UI", Roboto, Arial, sans-serif;
+}
+h1 {
+  font-size: 2.25rem;
+  text-align: center;
+}
+.logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #b30000, #6e0000);
+  box-shadow:
+    inset 0 -6px 14px rgba(0, 0, 0, 0.45),
+    0 6px 20px rgba(179, 0, 0, 0.12);
+}
+
+.card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.01)
+  );
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+button,
+.btn {
+  background: #b30000;
+  color: #fff;
+  border: 0;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 8px 22px rgba(179, 0, 0, 0.16);
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease;
+}
+button:hover,
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 36px rgba(179, 0, 0, 0.22);
+  align-content: center;
+}
+
+input,
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.02);
+  color: #ec1414;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  padding: 0.55rem;
+  border-radius: 6px;
+}
+
+.muted {
+  color: rgba(231, 18, 18, 0.6);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.9rem;
+}
+.footer .social-links{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.6rem;
+  flex-wrap: wrap;
+}
+.footer .social-links a{
+  color: #ff6b6b;
+  text-decoration: none;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 8px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.footer .social-links a:hover{
+  background: rgba(179,0,0,0.2);
+  color: #fff;
+}
+.footer .social-links span{
+  color: rgba(255,255,255,0.65);
+}
+
+/* Decorative Akatsuki-esque cloud accents using gradients */
+/* Akatsuki theme stylesheet */
+html,body{
+  height:100%;
+  margin:0;
+}
+body{
+  background:
+    radial-gradient(ellipse at 20% 10%, rgba(179,0,0,0.10) 0 8%, transparent 30%),
+    radial-gradient(ellipse at 80% 30%, rgba(179,0,0,0.08) 0 8%, transparent 25%),
+    linear-gradient(180deg,#050506 0%, #0d0d0f 100%);
+  color:#ececec;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.5;
+}
+
+a{ color:#ff6b6b; text-decoration:none; }
+a:hover{ color:#ff9a9a; }
+
+.container{
+  max-width:1100px;
+  margin:3.5rem auto;
+  padding:2rem;
+  background:rgba(0,0,0,0.32);
+  border-radius:10px;
+  box-shadow:0 12px 40px rgba(0,0,0,0.75);
+  border:1px solid rgba(255,255,255,0.03);
+}
+
+h1,h2,h3{ color:#fff; margin:0 0 0.75rem 0; text-shadow:0 2px 0 rgba(0,0,0,0.6); }
+h1{ font-size:2.25rem; text-align:center; }
+.logo{ width:48px; height:48px; border-radius:50%; background:linear-gradient(135deg,#b30000,#6e0000); box-shadow:inset 0 -6px 14px rgba(0,0,0,0.45), 0 6px 20px rgba(179,0,0,0.12); }
+
+.card{ background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:1rem; border-radius:8px; border:1px solid rgba(255,255,255,0.03); }
+
+button, .btn{ background:#b30000; color:#fff; border:0; padding:0.6rem 1rem; border-radius:8px; cursor:pointer; box-shadow:0 8px 22px rgba(179,0,0,0.16); transition:transform .12s ease, box-shadow .12s ease; }
+button:hover, .btn:hover{ transform:translateY(-3px); box-shadow:0 14px 36px rgba(179,0,0,0.22); }
+
+/* Center specific call-to-action buttons */
+.shop-now{
+  display: block;
+  margin: 1.25rem auto;
+  grid-column: 1 / -1; /* span full width of the product grid */
+  justify-self: center; /* center within the grid cell */
+}
+
+input, textarea, select{ background:rgba(255,255,255,0.02); color:#fff; border:1px solid rgba(255,255,255,0.04); padding:0.55rem; border-radius:6px; }
+
+.muted{ color:rgba(255,255,255,0.6); }
+
+.footer{ text-align:center; margin-top:2rem; color:rgba(255,255,255,0.55); font-size:0.9rem; }
+
+/* Decorative Akatsuki-esque cloud accents using gradients */
+.akatsuki-clouds{
+  pointer-events:none;
+  position:fixed;
+  inset:0;
+  z-index:0;
+  mix-blend-mode:screen;
+  background-image:
+    radial-gradient(closest-side at 10% 15%, rgba(179,0,0,0.08), transparent 40%),
+    radial-gradient(closest-side at 30% 40%, rgba(179,0,0,0.07), transparent 35%),
+    radial-gradient(closest-side at 70% 20%, rgba(179,0,0,0.06), transparent 40%),
+    radial-gradient(closest-side at 85% 60%, rgba(179,0,0,0.05), transparent 38%);
+}
+
+/* Utility */
+.center{ display:flex; align-items:center; justify-content:center; }
+
+code, pre{ background:rgba(0,0,0,0.4); color:#fff; padding:0.2rem 0.4rem; border-radius:4px; }
+
+/* Ensure content sits above decorative background */
+.container, header, main, footer{ position:relative; z-index:2; }
+  mix-blend-mode: screen;
+
+  #shop-now{
+    background: #b30000;
+    color: #fff;
+    border: 0;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 8px 22px rgba(179, 0, 0, 0.16);
+    transition:
+      transform 0.12s ease,
+      box-shadow 0.12s ease;
+    align-content: center;
+   
+  }
+  #shop-now:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 14px 36px rgba(179, 0, 0, 0.22);
+    align-content: center;;
+  }
+  .product-card{
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.02),
+      rgba(255, 255, 255, 0.01)
+    );
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    margin-bottom: 1.5rem;
+  }
+  .product-card h3{
+    margin-top: 0;
+    color: #fff;
+  }
+  .product-card p{
+    color: rgba(222, 12, 12, 0.8);
+  }
+  .product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+ .product-card img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 0.75rem;
+  }
+  .product-card :hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px #f505052e;
+  }
+.nav a{
+  color: rgb(124, 31, 31);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.12s ease;
+}
+.nav a:hover{
+  color: rgb(203, 22, 22);
+}
+.nav{
+  margin-top: 1rem;
+}
+.marquee-container{
+  overflow: hidden;
+  white-space: nowrap;
+  border-radius: 10px;
+  background: rgba(179, 0, 0, 0.16);
+  padding: 0.65rem 0.5rem;
+  margin: 1rem auto 0;
+}
+.marquee-text{
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  animation: marquee 16s linear infinite;
+}
+@keyframes marquee{
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+.banner-content{
+  text-align: center;
+}
+.banner-img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border-right-color: #050506;
+  border-left-color: #050506
+}
+.banner-content h2{
+  color: rgb(123, 7, 7);
+  margin-bottom: 1rem;
+} 
+.banner :hover{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px #f505052e;
+}
+.banner-content.card{
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.01)
+  );
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  margin-bottom: 1.5rem;
+  align-items: center;
+  background: rgba(85, 1, 1, 0.28);
+  border-radius: 10px;
+  box-shadow: 0 12px 40px hsla(0, 42%, 12%, 0.70);
+  border: 1px solid rgba(57, 28, 28, 0.03);
+ 
+}
+.banner-content.card h2{
+  margin-top: 0;
+  color: #fff;
+}
+.banner-content.card p{
+  color: rgba(222, 12, 12, 0.8);
+}
+.banner-content.card img{
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+.marquee-container :hover{
+  animation-play-state: paused;
+}
+.shop-now{
+  display: block;
+  margin: 1.25rem auto;
+}
+.shop-now{
+  background: #b30000;
+  color: #fff;
+  border: 0;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 8px 22px rgba(179, 0, 0, 0.16);
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease;
+}
+.shop-now:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 14px 36px rgba(179, 0, 0, 0.22);
+  align-content: center;
+}
+.marquee-text{
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  animation: marquee 14s linear infinite;
+  text-align: center;
+}
+
+/* Search bar centering */
+.search-bar{
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  max-width: 600px;
+  width: 100%;
+  
+}
+.search-input{
+  flex: 1;
+  min-width: 200px;
+  padding: 0.55rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.04);
+  background: rgba(255,255,255,0.02);
+  color: #fff;
+}
+.search-button{
+  background: #b30000;
+  color: #fff;
+  border: 0;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 8px 22px rgba(179, 0, 0, 0.16);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.search-button:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 14px 36px rgba(179, 0, 0, 0.22);
+}
+.search-bar{
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem auto;
+  align-items: center;
+}
+
+/* New styles for detailed product cards (left image, right details) */
+.product-grid-detailed {
+  display: grid;
+  grid-template-columns: 1fr; /* Stacks items vertically by default */
+  gap: 2rem; /* Space between detailed product cards */
+  margin-top: 1.5rem;
+}
+
+.product-card-detailed {
+  display: flex;
+  align-items: center; /* Vertically align image and text */
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.01)
+  );
+  padding: 1.5rem; /* Slightly more padding than .card */
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Hover transition */
+}
+
+.product-card-detailed:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 12px 30px rgba(179, 0, 0, 0.25); /* Enhanced shadow on hover */
+}
+
+.product-img-detailed {
+  width: 200px; /* Fixed width for the image */
+  height: auto;
+  border-radius: 6px;
+  margin-right: 1.5rem; /* Space between image and details */
+  object-fit: cover; /* Ensure image covers the area without distortion */
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.product-details-right {
+  flex-grow: 1; /* Allow details to take remaining space */
+}
+
+.product-details-right h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #fff; /* Consistent with other headings */
+}
+
+.product-details-right .product-description {
+  color: rgba(255, 255, 255, 0.7); /* Lighter text for description */
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.product-details-right .product-price {
+  color: #ff6b6b; /* Accent color for price, consistent with links */
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .product-card-detailed {
+    flex-direction: column; /* Stack image and details vertically */
+    text-align: center;
+  }
+
+  .product-img-detailed {
+    width: 80%; /* Make image wider on small screens */
+    max-width: 250px; /* Limit max width */
+    margin-right: 0;
+    margin-bottom: 1rem; /* Space below image */
+  }
+}
+
+/* Style for the active navigation link */
+.nav a.active-nav {
+  color: #fff; /* White text for active link */
+  background-color: rgba(179, 0, 0, 0.4); /* Semi-transparent Akatsuki red background */
+  border-radius: 5px; /* Rounded corners */
+  padding: 0.5rem 1rem; /* Adjust padding to match existing nav links */
+}
+}

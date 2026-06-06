@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>duskwear - Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="akatsuki-theme">
+<header>
+    <div class="container">
+        <h1>欢迎来到黄昏装</h1>
+        <p align="center" style="font-family: cursive, 'Segoe UI', Roboto, Arial, sans-serif;">
+            <b>Your one-stop shop for stylish and comfortable clothing.</b>
+        </p>
+        <nav id="main-nav" class="nav" align="center">
+            <b><a href="index.html">Home</a> |
+            <a href="t-shirt.html">T-shirt</a> |
+            <a href="shirts.html">Shirts</a> |
+            <a href="jeans.html">Jeans</a> |
+            <a href="shoes.html">Shoes</a> |
+            <a href="accessories.html">Accessories</a> |
+            <a href="cart.html">Cart</a></b>
+        </nav>
+        <div class="marquee-container">
+            <div class="marquee-text">NEW ARRIVALS: Explore the latest Akatsuki-inspired streetwear & enjoy free shipping on orders over $99.| This webpage is just a demo of my work.</div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container">
+        <h2>Your Shopping Cart</h2>
+        <div class="card" style="padding: 2rem;">
+            <div id="cart-items-container">
+                <!-- Cart items will be dynamically injected here by fck1.js -->
+            </div>
+            <div style="text-align: right; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
+                <h3>Total: <span id="cart-total" style="color: #ff6b6b;">$0.00</span></h3>
+                <button id="checkout-btn" class="btn" style="margin-top: 1rem; font-size: 1.1rem; padding: 0.8rem 2rem;">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <!-- Existing footer elements can go here -->
+</footer>
+
+<script src="fck1.js"></script>
+<script src="highlight-nav.js"></script>
+</body>
+</html>
